@@ -3,7 +3,7 @@
 ## Overview
 This project is a conversational AI agent designed to help users prepare for technical job interviews. Built for the **Eightfold AI Agent Building Assignment** (Problem Statement 2), it simulates a real-time voice-based interview, adapts to candidate behavior, and provides structured post-interview feedback.
 
-**Live Demo:** [Insert Link to Video or App if hosted]
+
 
 ---
 
