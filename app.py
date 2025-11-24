@@ -136,11 +136,6 @@ def main():
     )
 
     st.title("🎙️ AI Interview Practice Partner")
-    st.markdown("""
-    **Assignment Submission:** Conversational AI Agent  
-    *Prepare for your interview by speaking naturally. The agent will adapt to your responses.*
-    """)
-
     if not GEMINI_API_KEY:
         st.error("🔑 Please set your GEMINI_API_KEY in the .env file to proceed.")
         st.stop()
@@ -163,7 +158,6 @@ def main():
 
         st.markdown("---")
         st.subheader("🧪 Demo Controls")
-        st.info("Use these personas to demonstrate 'Adaptability' in your video submission.")
         
         persona_hint = st.selectbox(
             "Simulate Candidate Persona",
